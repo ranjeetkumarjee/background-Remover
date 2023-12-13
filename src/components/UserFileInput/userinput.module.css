@@ -1,0 +1,56 @@
+
+.userInput_sec{
+    height: 100%;
+}
+
+.userInput_sec>form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inutFile_sec{
+width: 142px;
+height: 38px;
+background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inutFile_sec > label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.inutFile_sec > label>img{
+    width: 20px;
+    margin-right: 5px ;
+}
+
+input[type='file']{
+display: none;
+}
+
+.userInput_sec>form>button{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background: #4d90fe;
+    color: white;
+    border-radius: 3px;
+}
+
+.imagePath{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:480px) {
+    
+}
+

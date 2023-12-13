@@ -1,0 +1,31 @@
+.user_input_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_input_container{
+    width: 55vw;
+    height: 40vw;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 270px;
+    max-height: 350px;
+    background-color: #dcdcdc9c;
+    border: 1px dashed;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .user_input_container{
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .user_input_sec>h2{
+        font-size: 1rem;
+    }
+    
+}
