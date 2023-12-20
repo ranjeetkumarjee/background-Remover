@@ -120,7 +120,7 @@ const handleDownload = () => {
             <input className={styled.fileinputTag} id='imageInput' type='file' ref={imageRef} onChange={()=> handleSelection()} accept="image/*" /><br />
             </div>
              <span className={styled.imagePath}>{selectedImg && selectedImg.name}</span>
-            {isDownloadAvailable ? <button type='button' className={styled.downloadbtn} onClick={()=>handleDownload()}>Download</button> : <button type='submit'>{buttonFont}</button> }
+            {isDownloadAvailable ? <button type='button' className={styled.downloadbtn} onClick={()=>handleDownload()}>Download</button> : <button className={styled.userInput_RemoveBg_btn} type='submit'>{buttonFont}</button> }
         </form>
     </div>
   )
