@@ -44,7 +44,14 @@ display: none;
     color: white;
     border-radius: 3px;
 }
-
+.downloadbtn{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background: green;
+    color: white;
+    border-radius: 3px;
+}
 .imagePath{
     margin-bottom: 20px;
 }
